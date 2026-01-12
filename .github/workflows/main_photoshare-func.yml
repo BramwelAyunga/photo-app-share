@@ -60,4 +60,4 @@ jobs:
           app-name: 'photoshare-func'
           slot-name: 'Production'
           package: ${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_80C585C394E24B4E9282D67D09C057B1 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_ECC6E257D5D241238C3F6D2924E1423B }}
