@@ -3,10 +3,10 @@ const CONFIG = {
     // Azure Functions API endpoint
     API_BASE_URL: window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1'
         ? 'http://localhost:7071/api'
-        : 'https://photoshare-func-hscrezebbubqdhd7.switzerlandnorth-01.azurewebsites.net/api',
+        : 'https://photoshare-func-hscrezebbubqdhd7.germanywestcentral-01.azurewebsites.net',
     
     // Azure Blob Storage CDN endpoint
-    BLOB_STORAGE_URL: 'https://photosharewebstore.blob.core.windows.net/photos',
+    BLOB_STORAGE_URL: 'https://storageaccountshareapp.blob.core.windows.net/photos',
     
     // JWT token storage key
     TOKEN_KEY: 'photoshare_token',
